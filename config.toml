@@ -1,0 +1,81 @@
+baseURL = "https://www.aseriesofquestions.com"
+languageCode = "en-us"
+title = "A Series Of Questions"
+theme = "hugo-PaperMod"
+
+paginate = 5
+
+enableRobotsTXT = true
+
+[minify]
+    disableXML = true
+    minifyOutput = true
+
+[params]
+	env = "production"
+	title = "A Series Of Questions"
+	description = "An interview about your job."
+	author = "Nick Lafferty"
+	images = "<link or path of image for opengraph, twitter-cards>"
+	ShowReadingTime = true
+	ShowShareButtons = false
+	comments = false
+	defaultTheme = "auto"
+	disableThemeToggle = false
+	disableSpecial1stPost = false
+
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "Home"
+  # icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Welcome to A Series Of Questions."
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/"
+
+  [[params.socialIcons]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/"
+
+[[menu.main]]
+identifier = "interviews"
+name = "interviews"
+url = "/interviews/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "search"
+url = "/search/"
+weight = 20
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
