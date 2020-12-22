@@ -1,4 +1,4 @@
-baseURL = "https://www.aseriesofquestions.com"
+baseURL = "https://aseriesofquestions.com"
 languageCode = "en-us"
 title = "A Series Of Questions"
 theme = "hugo-PaperMod"
