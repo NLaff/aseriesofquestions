@@ -1,4 +1,4 @@
-baseURL = "http://www.aseriesofquestions.com"
+baseURL = "https://www.aseriesofquestions.com"
 languageCode = "en-us"
 title = "A Series Of Questions"
 theme = "hugo-PaperMod"
@@ -20,7 +20,7 @@ enableRobotsTXT = true
 	ShowReadingTime = true
 	ShowShareButtons = false
 	comments = false
-	defaultTheme = "auto"
+	defaultTheme = "hugo-PaperMod"
 	disableThemeToggle = false
 	disableSpecial1stPost = false
 
