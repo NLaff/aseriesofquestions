@@ -49,20 +49,12 @@ enableRobotsTXT = true
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to A Series Of Questions."
+  Title = "👋 Hi! Welcome to A Series Of Questions."
+  Content = "A website and podcast about better understanding people's jobs."
 
   [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/"
-
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
 
 [[menu.main]]
 identifier = "interviews"
